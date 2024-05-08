@@ -16,7 +16,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -26,7 +25,6 @@ public class ProductManager implements ProductService {
     private final ProductRepository repository;
     private final ModelMapper mapper;
     private final ProductBusinessRules rules;
-    private final ProductService productService;
 
     @Override
     public List<GetAllProductsResponse> getAll(Integer pageNo, Integer pageSize) {

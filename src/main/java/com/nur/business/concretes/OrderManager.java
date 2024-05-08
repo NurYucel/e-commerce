@@ -27,7 +27,6 @@ public class OrderManager implements OrderService {
 
     private final CartService cartService;
     private final PaymentService paymentService;
-    private final ProductService productService;
 
     private final OrderItemRepository orderItemRepository;
 

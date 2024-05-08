@@ -1,11 +1,8 @@
 package com.nur.business.abstracts;
 
 import com.nur.business.dto.requests.create.CreatePaymentRequest;
-import com.nur.business.dto.requests.update.UpdatePaymentRequest;
-import com.nur.business.dto.responses.create.CreatePaymentResponse;
 import com.nur.business.dto.responses.get.GetAllPaymentsResponse;
 import com.nur.business.dto.responses.get.GetPaymentResponse;
-import com.nur.business.dto.responses.update.UpdatePaymentResponse;
 import com.nur.entities.Payment;
 
 import java.util.List;
